@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contries App</title>
+
+<!-- font Awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css">
+
+<script src="app.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">Contries <span>App</span></div>
+        <div class="items">
+            <div class="item">Home</div>
+            <div class="item">About</div>
+            <div class="item">Contact Us</div>
+            <button class="login">Login</button>
+        </div>
+        <div class="items-mobile">
+            <div class="item">Home</div>
+            <div class="item">About</div>
+            <div class="item">Contact Us</div>
+            <button class="login">Login</button>
+        </div>
+
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <main>
+        <div class="left">
+            <h2>Filter by Continent</h2>
+            <form>
+                <div>
+                    <input type="radio" id="all" name="continent" value="all" checked>
+                    <label for="all">All</label>
+                </div>
+                <div>
+                    <input type="radio" id="africa" name="continent" value="africa">
+                    <label for="africa">Africa</label>
+                </div>
+                <div>
+                    <input type="radio" id="asia" name="continent" value="asia">
+                    <label for="asia">Asia</label>
+                </div>
+                <div>
+                    <input type="radio" id="europe" name="continent" value="europe">
+                    <label for="europe">Europe</label>
+                </div>
+                <div>
+                    <input type="radio" id="north-america" name="continent" value="north america">
+                    <label for="north america">North America</label>
+                </div>
+                <div>
+                    <input type="radio" id="south-america" name="continent" value="south america">
+                    <label for="south-america">South America</label>
+                </div>
+                <div>
+                    <input type="radio" id="oceania" name="continent" value="oceania">
+                    <label for="oceania">Oceania</label>
+                </div>
+            </form>
+        </div>
+        <div class="right">
+            
+            
+        </div>
+    </main>
+</body>
+</html>
